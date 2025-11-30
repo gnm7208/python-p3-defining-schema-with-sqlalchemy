@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 class Student(Base):
-    pass
+    __tablename__ = 'students'
 
 if __name__ == '__main__':
     pass
