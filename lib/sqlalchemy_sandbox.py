@@ -9,6 +9,7 @@ class Student(Base):
     __tablename__ = 'students'
 
     id = Column(Integer(), primary_key=True)
+    name = Column(String())
 
 if __name__ == '__main__':
     pass
