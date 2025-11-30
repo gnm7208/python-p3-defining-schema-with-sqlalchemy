@@ -16,6 +16,7 @@ class Student(Base):
     def __repr__(self):
         return f"<Student(id={self.id}, name='{self.name}')">
 
+# Main execution block
 if __name__ == '__main__':
     engine = create_engine('sqlite:///students.db')
     Base.metadata.create_all(engine)
