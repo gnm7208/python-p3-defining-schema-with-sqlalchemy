@@ -3,6 +3,7 @@
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
+# Create declarative base for ORM models
 Base = declarative_base()
 
 class Student(Base):
